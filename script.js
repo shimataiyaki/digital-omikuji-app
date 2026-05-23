@@ -70,7 +70,7 @@
             modalNumber.textContent = selected;
             modalNumber.classList.remove('horizontal'); // 縦書きに戻す
             modalUnit.textContent = '番';
-            modalGuide.textContent = '▶ 表示された数字を部員に見せて、おみくじの紙を受け取ってください。';
+            modalGuide.textContent = '▶ 表示された番号のおみくじ紙を受け取ってね';
             timeoutId = null;
         }, WAIT_TIME);
     }
